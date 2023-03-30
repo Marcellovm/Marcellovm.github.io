@@ -23,3 +23,28 @@
     transform: perspective(1000px) rotateY(0deg);
     transition: transform .4s ease-out;
 }
+.card-container .frente .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.card-container .frente .image img {
+    height: 50px;
+}
+.card-container .frente .card-numero-box {
+    padding: 15px 0;
+    font-size: 20px;
+    color: #fff;
+}
+.card-container .frente .flexbox {
+    display: flex;
+}
+.card-container .frente .flexbox .box:nth-child(1) {
+    margin-right: auto;
+}
+.card-container .frente .flexbox .box {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #fff;
+}
